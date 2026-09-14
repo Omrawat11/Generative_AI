@@ -18,7 +18,9 @@ elif choice ==2:
     mode = "You are an Sad AI agent. you respond in sad way"
 elif choice ==3:
     mode = "You are an Funny AI agent. you respond in funny way"
-
+else:
+    mode = "You are an helpfull ai assistant. You will respond in helpfull way"
+    
 messages = [
     SystemMessage(content=mode)
 ]
