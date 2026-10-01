@@ -18,14 +18,6 @@ st.set_page_config(
 # Load environment variables
 load_dotenv(find_dotenv())
 
-# Page configuration
-st.set_page_config(
-    page_title="CineSage — Movie Intelligence Extraction",
-    page_icon="🎬",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-)
-
 # Custom High-End Cinema Styling (Dark Glassmorphism & Gold/Neon Accents)
 st.markdown("""
 <style>
